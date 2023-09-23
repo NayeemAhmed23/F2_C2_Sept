@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h2>Student Portal</h2>
+    </header>
+    <main>
+      <section>
+        <input type="text" id="search-input" placeholder="Search" onkeyup="searchStudents()"/>
+        <button id="btn">Search</button>
+      </section>
+      <section id="buttons">
+        <button id="btn">Sort A -> Z</button>
+        <button id="btn">Sort Z -> A</button>
+        <button id="btn">Sort By Marks</button>
+        <button id="btn">Sort By Passing</button>
+        <button id="btn">Sort By Class</button>
+        <button id="btn">Sort By Gender</button>
+      </section>
+      <section class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Email</th>
+              <th>Gender</th>
+              <th>Class</th>
+              <th>Marks</th>
+              <th>Passing</th>
+            </tr>
+          </thead>
+          <tbody id="student-body">
+            <!-- <tr>
+              <td>1</td>
+              <td>
+                <img src="./Images/dp 1.png" alt="Icon" />
+                Avi Vashishta
+              </td>
+              <td>Male</td>
+              <td>12</td>
+              <td>99</td>
+              <td>Failed</td>
+              <td>avi@gmail.com</td>
+            </tr> -->
+            
+        </table>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
